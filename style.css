@@ -1,28 +1,26 @@
-/* style.css */
-
+/* Grundlegendes Styling */
 body {
     font-family: Arial, sans-serif;
-    background: #f9f9f9;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 header {
-    background: #007acc;
+    background-color: #0073bb;
     color: white;
-    padding: 1rem 2rem;
-    text-align: center;
+    padding: 15px 20px;
 }
 
 header h1 {
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 
 nav a {
     color: white;
-    margin: 0 1rem;
     text-decoration: none;
+    margin-right: 15px;
     font-weight: bold;
 }
 
@@ -31,41 +29,33 @@ nav a:hover {
 }
 
 main {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 20px;
 }
 
-article {
-    margin-bottom: 2rem;
-}
-
-article img {
-    max-width: 250px;
-    height: auto;
-    display: block;
-    margin: 1rem 0;
-    border-radius: 4px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+h2 {
+    color: #0073bb;
 }
 
 footer {
-    background: #222;
-    color: #aaa;
+    background-color: #222;
+    color: white;
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+    padding: 15px 10px;
+    margin-top: 40px;
 }
 
-footer a {
-    color: #aaa;
-    margin: 0 0.5rem;
+/* Buttons Links (wird in den Artikelseiten teilweise überschrieben) */
+.btn-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #0073bb;
+    color: white;
     text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-footer a:hover {
-    text-decoration: underline;
+.btn-link:hover {
+    background-color: #005f94;
 }
